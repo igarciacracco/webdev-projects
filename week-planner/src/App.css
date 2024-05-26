@@ -1,0 +1,154 @@
+#root {
+  margin: -8px;
+  text-align: center;
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  background-color: white;
+  color: black;
+  font-family: "League Spartan";
+  font-size: 70px;
+  padding-right: 50px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.newTaskButton{
+  margin-bottom: 15px;
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  display: block;
+  background-color: white;
+  color: black;
+  font-family: "League Spartan";
+  font-size: 30px;
+}
+
+.newTaskButton:hover{
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.weekDayContainer{
+  display: flex;
+  justify-content: flex-start;
+
+  border-radius: 30px;
+  height: 90px;
+  background-color: #3d3d3d;
+  width: 100%;
+/* 63px spaces */
+  margin-top: 15px;
+}
+
+.weekDayName{
+  font-family: "League Spartan";
+  font-size: 70px;
+  width: 100%;
+  height: 90px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.hourContainer{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 1000;
+  font-size: 45px;
+  margin-top: 10px;
+  display: inline-block;
+  width: 63px; /* 63px per hour space */
+  height: 60px;
+  background-color: transparent;
+}
+
+.taskContainer{
+  font-family: "League Spartan";
+  height: 100%;
+  border-radius: 30px;
+}
+
+.taskText{
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+.popUpCard{
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: visibility 0s 0s, opacity 0.25s linear;
+
+  color: black;
+  width: 600px;
+  height: 350px;
+  background-color: white;
+  border-radius: 50px;
+
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -300px;
+  top: 40%;
+  margin-top: -175px;
+
+  padding-top: 15px;
+}
+
+.boldText{
+  font-family: "League Spartan";
+  color: black;
+  font-size: 40px;
+}
+
+.lightText{
+  color: black;
+  font-family:"roboto";
+  font-weight: 1000;
+  font-size: 30px;
+}
+
+.formField{
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-start;
+
+  font-family: "roboto";
+  font-weight: 1000;
+  font-size: 20px;
+
+  margin-bottom: 10px;
+}
+
+input{
+  color: black;
+  font-family: "League Spartan";
+  font-size: 20px;
+  background-color: white;
+  border-color: #EEEEEE;
+  border-style: solid;
+  height: 30px;
+  width: 300px;
+}
+
+select{
+  color: black;
+  font-family: "League Spartan";
+  font-size: 20px;
+  background-color: white;
+  border-color: #EEEEEE;
+  border-style: solid;
+  height: 30px;
+  width: 300px;
+}
