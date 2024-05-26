@@ -1,0 +1,69 @@
+#root {
+  margin: -8px;
+  text-align: center;
+}
+
+
+.BigHeaderText{
+  font-family: "League Spartan";
+  height: 30px;
+  font-size: 60px;
+  color: white;
+  padding-top: 18px;
+}
+
+.BigFooterText{
+  font-family: "League Spartan";
+  height: 30px;
+  font-size: 54px;
+  color: #c6c6c6;
+  padding-top: 20px;
+
+}
+
+.dayForecastContainer{
+  margin: auto;
+  height: 100%;
+  width: 50%;
+  /*background-color: blue;*/
+}
+
+.weekForecastContainer{
+  padding-top: 45px;
+  margin: auto;
+  height: 100%;
+  width: 50%;
+  /*background-color: red;*/
+}
+
+.hourlyForecastContainer{
+  height: 100%;
+  width: 100px;
+  padding: 8px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 1000;
+  font-size: 18px;
+}
+
+.weekDayContainer{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 15px;
+  height: 65px;
+  width: 75%;
+}
+
+.imageContain{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.imageContainInline{
+  object-fit: contain;
+  height: 100%;
+  display: inline;
+  padding-right: 30px;
+
+}
